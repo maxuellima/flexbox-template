@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Prática de Grid</title>
 </head>
 
 <body>
-    <header>
+    <header class="cabecalho">
         <section>
-            <h2>Logo</h2>
+            <h2 id="logo">Logo</h2>
         </section>
         <section>
             <button>Logout</button>
@@ -19,7 +20,10 @@
     </header>
 
     <main>
-        <section>
+        <section  class="container">
+            <aside class="menu-esquerda">Lado Esquerdo</aside>
+            <aside class="menu-direita">Lado Direito</aside>
+            <div class="text-container">
             <article>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit in sed laudantium a. Eos vitae, tempora
                     facere
@@ -28,7 +32,7 @@
                     quisquam.</p>
 
             </article>
-            <article>
+            <article class="espacoMaior">
 
                 <p>Nostrum blanditiis voluptatem atque excepturi quo temporibus vitae consectetur numquam minus
                     doloremque
@@ -50,17 +54,41 @@
                     quaerat, commodi reiciendis dolorum nihil error, fuga cumque neque laudantium quis esse labore?
                     Exercitationem consectetur id non.</p>
             </article>
+        </div>
 
         </section>
 
-        <section>
-            <figure>
-
+        <section id="quadro-de-imagens">
+            <figure class="imagem">
+                <img src="/assets/img.jpeg" alt="folha">
+                <figcaption>Estações mudam</figcaption>
+            </figure>
+            <figure class="imagem">
+                <img src="/assets/img.jpeg" alt="folha">
+                <figcaption>Estações mudam</figcaption>
+            </figure><figure class="imagem">
+                <img src="/assets/img.jpeg" alt="folha">
+                <figcaption>Estações mudam</figcaption>
+            </figure><figure class="imagem">
+                <img src="/assets/img.jpeg" alt="folha">
+                <figcaption>Estações mudam</figcaption>
+            </figure><figure class="imagem">
+                <img src="/assets/img.jpeg" alt="folha">
+                <figcaption>Estações mudam</figcaption>
+            </figure><figure class="imagem">
+                <img src="/assets/img.jpeg" alt="folha">
+                <figcaption>Estações mudam</figcaption>
+            </figure><figure class="imagem">
+                <img src="/assets/img.jpeg" alt="folha">
+                <figcaption>Estações mudam</figcaption>
+            </figure><figure class="imagem">
+                <img src="/assets/img.jpeg" alt="folha">
+                <figcaption>Estações mudam</figcaption>
             </figure>
         </section>
     </main>
 
-    <footer>
+    <footer class="cabecalho">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </footer>
 </body>
